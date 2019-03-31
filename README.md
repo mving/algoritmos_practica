@@ -1,6 +1,6 @@
-#CHEAT SHEEET Los secretos de printf
+# CHEAT SHEEET Los secretos de printf
 
-##Caracteres especiales por naturaleza
+## Caracteres especiales por naturaleza
 
 \         | escapar el siguiente caracter
 --------- | ------------------------------
@@ -13,7 +13,7 @@
 \%        |imprimir un signo de porcentaje
 
 
-##Caracteres especiales alternativos
+## Caracteres especiales alternativos
 
 \a |alerta auditiva (campana -bell-)
 -- | ----------------
