@@ -42,8 +42,8 @@
 ## Relleno de espacios
 
 printf |imprime
-justificado derecha
 ---- | ----------
+justificado derecha
 ("%5d",0)| ____0
 ("%5d",-7)|  ___-7
 ("%5d",1560133635)| 1560133635
