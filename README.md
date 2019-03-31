@@ -67,8 +67,8 @@ Imprimir con signo +
 (· simboliza el espacio)
 ### Resumen
 
-ninguna| alinea a derecha, con espacios
----- | -----
+ninguna | alinea a derecha, con espacios
+------  | ---------------------
 - |justica a izquierda
 0 |rellena con ceros
 + |con un signo más en números positivos
