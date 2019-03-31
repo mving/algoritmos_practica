@@ -23,3 +23,27 @@
 \r |retorno de carro
 \t |tabulación
 \v |tabulación vertical
+
+## Especificación de formato
+
+%c |imprimir un caracter
+-- | -----------------------
+%d |un número decimal (base 10)
+%e |un Nº de punto flotante exponencial
+%f |un Nº de punto flotante
+%g |un Nº de punto flotante en formato general
+%i |un entero en base 10
+%o |un Nº en octal (base 8)
+%s |una cadena de caracteres
+%u |un Nº decimal no signado (base 10)
+%x |un Nº en hexadecimal (base 16)
+%% |un signo porcentaje (también funciona \%)
+
+## Relleno de espacios
+
+printf |imprime
+---- | ----------
+("%5d",0)| ____0
+("%5d",-7)|  ___-7
+("%5d",1560133635)| 1560133635
+("%5d",-2035065302)| -2035065302
