@@ -44,12 +44,45 @@
 printf |imprime
 ---- | ----------
 justificado derecha
-("%5d",0)| ____0
-("%5d",-7)|  ___-7
-("%5d",1560133635)| 1560133635
-("%5d",-2035065302)| -2035065302
+("%5d",0)| ····0
+("%5d",-7)|  ···-7
 justificado izquierda
-("%-5d",0) | 0____    
-("%-5d",-7) | -7___   
-("%-5d",1560133635) | 1560133635
-("%-5d",-2035065302)| -2035065302
+("%-5d",0) | 0····    
+("%-5d",-7) | -7···   
+rellenar con ceros
+("%05d",0)| 00000
+("%05d",-7)| -0007
+Imprimir con signo +
+("%+5d",0) |···+0
+("%+5d",-7)\···-7
+("%+-5d",0) |+0···   
+("%+-5d",-7) |-7···
+("% -5d",0) | ·0···   
+("% -5d",-7) |-7···      
+("% 05d",0) | ·0000
+("% 05d",-7) | -0007
+("%+05d",0) |+0000
+("%+05d",-7) |-0007
+
+(· simboliza el espacio)
+### Resumen
+
+ninguna| alinea a derecha, con espacios
+---- | -----
+- |justica a izquierda
+0 |rellena con ceros
++ |con un signo más en números positivos
+· |signo más invisible
+
+## Precisión del número
+
+printf| imprime
+---- | ------
+("%.0f",e)| 3
+("%.0f.",e)| 3.
+("%.1f",e) |2.7
+("%.2f",e) |2.72
+justificando
+("%5.0f",e)  |   3
+("%5.0f.",e)  |   3.
+("%5.1f",e)  | 2.7
