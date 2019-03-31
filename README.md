@@ -2,8 +2,9 @@ CHEAT SHEEET Los secretos de printf
 
 
 \         | escapar el siguiente caracter
-\\        | imprimir una barra invertida
 --------- | ------------------------------
+\\        | imprimir una barra invertida
+
 " comienzo on de cadena
 \" imprimir comillas dobles
 
