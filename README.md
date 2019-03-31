@@ -1,5 +1,6 @@
-CHEAT SHEEET Los secretos de printf
+#CHEAT SHEEET Los secretos de printf
 
+##Caracteres especiales por naturaleza
 
 \         | escapar el siguiente caracter
 --------- | ------------------------------
@@ -8,9 +9,11 @@ CHEAT SHEEET Los secretos de printf
 \"        | imprimir comillas dobles
 '         | comienzo on de una constante de caracter
 \'        | imprimir comilla simple
-%         | comenzar especicacion de formato
+%         | comenzar especicación de formato
 \%        |imprimir un signo de porcentaje
 
+
+##Caracteres especiales alternativos
 
 \a |alerta auditiva (campana -bell-)
 -- | ----------------
@@ -18,5 +21,5 @@ CHEAT SHEEET Los secretos de printf
 \f |form feed
 \n |nueva línea
 \r |retorno de carro
-\t |tabulacion
-\v |tabulacion vertical
+\t |tabulación
+\v |tabulación vertical
