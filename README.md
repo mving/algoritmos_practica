@@ -8,5 +8,15 @@ CHEAT SHEEET Los secretos de printf
 \"        | imprimir comillas dobles
 '         | comienzo on de una constante de caracter
 \'        | imprimir comilla simple
-%         | comenzar especicacion de formato
+%         | comenzar especicacion de formato
 \%        |imprimir un signo de porcentaje
+
+
+\a |alerta auditiva (campana -bell-)
+-- | ----------------
+\b |retroceso
+\f |form feed
+\n |nueva línea
+\r |retorno de carro
+\t |tabulacion
+\v |tabulacion vertical
