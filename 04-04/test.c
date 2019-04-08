@@ -8,9 +8,11 @@ int main() {
   float c;
   int numero =15;
   if (numero >= nota) {
-    printf("hola\n");
+//    printf("hola\n");
   }
 
-  printf("a%d\nb%c\nc%f",a,b,c);
+//  printf("a%d\nb%c\nc%f",a,b,c);
+long j = 2147483647;
+printf("%d\n",j);
   return 0;
 }
