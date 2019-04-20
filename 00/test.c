@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main () {
 /*   char str[256];
@@ -8,6 +9,8 @@ int main () {
      printf("%c\n",i);
    }*/
    int calificacion=4;
+   char num[30];
+   calificacion = atoi(fgets(num,30,stdin));
    printf("%s\n", calificacion>=4 ? "aprobado" : "desaprobado");
    return(0);
 }
