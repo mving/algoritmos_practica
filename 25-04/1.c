@@ -6,6 +6,7 @@ struct intervalo{
   int x,y;
 };
 
+
 int main() {
   printf("%zu\n",sizeof(struct intervalo) );
   return 0;

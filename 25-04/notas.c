@@ -23,6 +23,7 @@ s step
 p print
 n next
 
+
 char *leer_cadena(){
   char *s;
   int c;
