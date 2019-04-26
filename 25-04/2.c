@@ -5,7 +5,6 @@
 void destruir_vector(int *v){
   free(v);
 }
-
 /*
 Recibe un puntero v a un vector dinamico ordenado  de n elementos e
 inserta el elemento nuevo quedando ordenado. Si la funcion
