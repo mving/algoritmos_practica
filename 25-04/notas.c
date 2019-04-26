@@ -35,3 +35,5 @@ char *leer_cadena(){
   }
   s[i]= '/0';
 }
+
+indent para tabular

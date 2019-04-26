@@ -11,7 +11,7 @@ Recibe un puntero v a un vector dinamico ordenado  de n elementos e
 inserta el elemento nuevo quedando ordenado. Si la funcion
 puede insertar devuelve true, false en caso contrario.
 */
-bool agregar_elemento(int *v,size_t *n, int nuevo){
+bool agregar_elemento(int **v,size_t *n, int nuevo){
   int *aux;
   aux = realloc(*v, sizeof(int) * (*n+1));
   if (aux == NULL) {
