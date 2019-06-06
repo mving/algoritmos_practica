@@ -1,3 +1,4 @@
+
 otra forma de "if"
 return es_bisiesto(year) ? 29 : 28;
 
