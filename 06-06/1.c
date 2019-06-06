@@ -13,3 +13,5 @@ void *lista_buscar(const lista_t *l, const void *dato, int (*cmp)(const void *a,
 void *lista_borrar(const lista_t *l, const void *dato, int (*cmp)(const void *a, const void *b));
 
 para el parcial implementar alguna primitiva de listas
+
+implementar map y filter
