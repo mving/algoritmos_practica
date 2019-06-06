@@ -15,3 +15,5 @@ void *lista_borrar(const lista_t *l, const void *dato, int (*cmp)(const void *a,
 para el parcial implementar alguna primitiva de listas
 
 implementar map y filter
+
+map para recorrer todos
