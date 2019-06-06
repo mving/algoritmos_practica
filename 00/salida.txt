@@ -1,0 +1,3 @@
+Ingrese LFLAGS en formato '-flag -flag'
+Ingrese nombre de salida
+El Makefile se creo correctamente

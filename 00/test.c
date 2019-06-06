@@ -11,6 +11,7 @@ int main () {
    int calificacion=4;
    char num[30];
    calificacion = atoi(fgets(num,30,stdin));
-   printf("%s\n", calificacion>=4 ? "aprobado" : "desaprobado");
+   printf("%d\n",1/2 );
+  // printf("%s\n", calificacion>=4 ? "aprobado" : "desaprobado");
    return(0);
 }

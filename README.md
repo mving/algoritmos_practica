@@ -1,3 +1,9 @@
+apuntes de la practica con Santisi
+
+DISCLAIMER
+
+No confiar al 100%, pensar en lo que esta escrito
+
 # CHEAT SHEEET Los secretos de printf
 
 ## Caracteres especiales por naturaleza
