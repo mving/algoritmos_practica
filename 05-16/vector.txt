@@ -1,0 +1,13 @@
+TDA Vector
+
+vector_t
+
+vector_t *vector_crear(size_t n);
+void vector_destruir(vector_t *v, ??);
+
+bool vector_guardar(vector_t *v, size_t i, void *val);
+void *vector_leer(const vector_t *v, size_t i);
+
+bool vector_redimensionar(vector_t *v, size_t n);
+
+size_t vector_tamagno(const vector_t *v);

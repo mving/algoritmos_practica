@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include "complejo.h"
 
-int main(int argc, char const *argv[]) {
-    complejo_t *a, *b, *c;
 
-    a = complejo_crear(0, 1);
-    b = complejo_crear(1, 0);
+int main(void) {
+	complejo_t *a, *b, *c;
 
-    c = complejo_sumar(a, b);
+	a = complejo_crear(0, 1);
+	b = complejo_crear(1, 0);
 
-    printf("%f %f\n", complejo_modulo(c), complejo_argumento(c));
+	c = complejo_sumar(a, b);
 
-    complejo_destruir(a);
-    complejo_destruir(b);
-    complejo_destruir(c);
+	printf("%f %f\n", complejo_modulo(c), complejo_argumento(c));
 
-    return 0;
+	complejo_destruir(a);
+	complejo_destruir(b);
+	complejo_destruir(c);
+
+	return 0;
 }
